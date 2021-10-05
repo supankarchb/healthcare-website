@@ -1,19 +1,9 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {
-//     faYoutube,
-//     faFacebook,
-//     faTwitter,
-//     faInstagram
-//   } from "@fortawesome/free-brands-svg-icons";
 const Contracts = () => {
-
-    // const element = <FontAwesomeIcon icon={faFacebook} />
-
     return (
         <div>
-             <div class="row">
-                        
+             <div class="row p-5 m-3">
+                       
                         <div class="col col-m-1-1 col-l-1-1 col-1-1">
                             <div class="column text-center"> 
                                 <h1>Where to <strong class="text-danger">find us.</strong></h1>
@@ -43,7 +33,6 @@ const Contracts = () => {
                         </div> 
                     </div>
                 </div>
-            
         </div>
     );
 };
