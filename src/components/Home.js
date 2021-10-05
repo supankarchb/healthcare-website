@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, FormControl, Nav, Form, Container, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Home.css'
 const Home = () => {
     return (
         <div className="headerStyle">
@@ -14,11 +15,11 @@ const Home = () => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-       <Link to="/homes" className="text-white m-2"><li className=""><b>Home</b></li></Link>
-        <Link to="/abouts" className="text-white m-2"><li className=""><b>About us</b></li></Link>
-       <Link to="/courses" className="text-white m-2"><li className=""><b>Courses</b></li></Link>
+       <Link to="/homes" className="text-white m-2 items"><li><b>Home</b></li></Link>
+        <Link to="/abouts" className="text-white m-2 items"><li ><b>About us</b></li></Link>
+       <Link to="/courses" className="text-white m-2 items"><li ><b>Courses</b></li></Link>
 
-       <Link to="/contract" className="text-white m-2"><li className=""><b>Find us</b></li></Link>
+       <Link to="/contract" className="text-white m-2 items"><li><b>Find us</b></li></Link>
 
         
     
