@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonGroup,Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 const Footer = () => {
     return (
@@ -13,10 +13,10 @@ const Footer = () => {
    
     <ul className="list-unstyled list-inline text-center py-2">
       <li className="list-inline-item">
-        <h5 className="mb-1">Register for free</h5>
+        <h5 className="mb-1 text-white">Register for free</h5>
       </li>
       <li className="list-inline-item">
-      <Button className="btn btn-outline-white btn-rounded">sign up!</Button>
+      <Button className="rounded-pill">Sign up!</Button>
       </li>
     </ul>
   
@@ -25,7 +25,7 @@ const Footer = () => {
   
 
   
-  <div className="footer-copyright text-center py-3">© 2020 Copyright: ABC Coaching Center
+  <div className="footer-copyright text-center py-3 text-white">© 2020 Copyright: ABC Coaching Center
   </div>
   
 

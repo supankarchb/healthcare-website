@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Services = (props) => {
+const ShowData = (props) => {
     const{name,totalVideos,enrollfree,img} = props.product;
     const productStyle={
         border: '3px solid goldenrod',
         padding:'10px',
         borderRadius:'10px',
-        gridGap:'10px'
+        gridGap:'10px',
+        
     }
     const imgStyle={
         textAlign:'center',
@@ -15,9 +16,8 @@ const Services = (props) => {
     alignItems:'center',
     margin: 'auto',
     width: '250px',
-    height:'200px'
+    height:'200px'}
         
-    }
     return (
         <div className="col-md-6 g-5" style={productStyle}>
 
@@ -38,4 +38,4 @@ const Services = (props) => {
     );
 };
 
-export default Services;
+export default ShowData;

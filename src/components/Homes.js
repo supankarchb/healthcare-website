@@ -1,18 +1,18 @@
 import React from 'react';
-import Home from './Home';
+import Data from './Data';
 import Footer from './Footer';
-import Products from './Products';
 import Header from './Header';
+import Home from './Home';
 
-const Courses = () => {
+const Homes = () => {
     return (
         <div>
             <Header/>
             <Home></Home>
-         <Products></Products>
-         <Footer></Footer>
+            <Data></Data>
+            <Footer></Footer>
         </div>
     );
 };
 
-export default Courses;
+export default Homes;
