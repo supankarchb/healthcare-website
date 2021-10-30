@@ -3,7 +3,6 @@ import React from 'react';
 const Services = (props) => {
     const{name,totalVideos,enrollfree,img} = props.product;
     const productStyle={
-        border: '3px solid goldenrod',
         padding:'10px',
         borderRadius:'10px',
         gridGap:'10px'

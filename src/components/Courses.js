@@ -1,16 +1,15 @@
 import React from 'react';
+import Footer from './Footer/Footer';
 import Home from './Home';
-import Footer from './Footer';
 import Products from './Products';
-import Header from './Header';
 
 const Courses = () => {
     return (
         <div>
-            <Header/>
+            
             <Home></Home>
-         <Products></Products>
-         <Footer></Footer>
+         <Products> </Products>
+         <Footer/>
         </div>
     );
 };

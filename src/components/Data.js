@@ -12,7 +12,8 @@ const Data = () => {
         <div>
               <div className="row bg-light">
                <div className="col-md-12">
-           <div className="row p-3 my-3"> <h2><b>Our Courses</b></h2>
+                   <div className="bg-warning mt-5"> <h1><b>Services</b></h1></div>
+           <div className="row">
             {
                 products.map(product => <ShowData key={product.key}  product={product}>
                    

@@ -1,0 +1,56 @@
+[
+    {
+           "key":"454986565655696598956569",
+           "name": "Professor Dr. AKM Fazlul Hoque",
+           "totalVideos": "MBBS, FCPS, FICS (USA),Colorectal Surgery (USA)",
+           "enrollfree": "65",
+           "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Prof.dr.Akmfazlulhaque.jpg",
+           "country":"A. K. M. Fazlul Haque is a Bangladeshi surgeon. He was the founder of the Department of Colorectal Surgery in Bangabandhu Sheikh Mujib Medical University in Dhaka."
+       },
+       {
+        "key":"454986565655696598956568",
+           "name": "Professor Dr. Mahbub H Khan",
+           "totalVideos": "MBBS, PhD Liver Med(Sydney), DSM(Vienna),",
+       "enrollfree": "70",
+          
+           "img": "https://seatbooking.com.bd/wp-content/uploads/2017/05/IMG_20161117_125039-1.jpg",
+           "country":"Since February 2015 he has been practicing as Senior Consultant of Liver disease and Gastroenterology at Gastro Liver Hospital, Dhaka, Bangladesh"
+               },
+       {
+        "key":"454986565655696598956567",
+           "name": "Professor Dr. Sheikh Nesaruddin Ahmed",
+           "totalVideos": "MBBS DTM & H,MRCP(Edin),FRCP(Edin),FCPS,FACP (USA)",
+       "enrollfree": "60",
+           "invitationCost": "50000",
+           "img": "https://www.nhf.org.bd/images/doctor_images/2019.jpg",
+           "country":"He is a Internal Medicine & Reumatology.Well known doctor in bangladesh.His behaviour is very friendly"       
+        },
+        {
+            "key":"454986565655696598956566",
+           "name": "Professor Dr. H A M Nazmul Ahsan",
+           "totalVideos": "MBBS, FCPS, FICS (USA), Surgery (USA)",
+       "enrollfree": "45",
+           "invitationCost": "30000",
+           "img": "https://doctoryouneed.org/wp-content/uploads/2019/09/Prof.-Dr.-H-A-M-Nazmul-Ahsan.jpg",
+           "country":"Medicine Specialist Professor of Medicine Department POPULAR MEDICAL COLLEGE HOSPITAL"
+        },
+       {
+        "key":"454986565655696598956565",
+           "name": "Professor Dr. Ferdous Ara J. Janan",
+           "totalVideos": "MD ( USA ), FIBA ( Eng. ), FCPS ( Med. ), FRCP ( Edin. ), FACP ( USA )",
+       "enrollfree": "55",
+           "invitationCost": "45000",
+           "img": "https://doctoryouneed.org/wp-content/uploads/2020/01/1557718299.jpg",
+           "country":"Medicine Specialist Specialist of Medicine Department DHAKA MEDICAL COLLEGE"       },
+       
+       {
+        "key":"454986565655696598956562",
+           "name": "Professor Dr. A K M Musa",
+           "totalVideos": "MBBS,DTCD,FCPS,MCPS,Gold Medalist",
+       "enrollfree": "37",
+           "invitationCost": "53000",
+           "img": "https://www.acromedical.com/images/doctor1616753844.png",
+           "country":"Medicine Specialist Specialist of Medicine Specialist AALOK HEALTH CARE LTD." 
+        }
+      
+   ]

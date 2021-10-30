@@ -1,7 +1,10 @@
 import React from 'react';
+import Footer from './Footer/Footer';
+import Home from './Home';
 const Contracts = () => {
     return (
         <div>
+            <Home/>
              <div class="row p-5 m-3">
                        
                         <div class="col col-m-1-1 col-l-1-1 col-1-1">
@@ -28,6 +31,7 @@ const Contracts = () => {
                         </div> 
                     </div>
                 </div>
+                <Footer></Footer>
         </div>
     );
 };

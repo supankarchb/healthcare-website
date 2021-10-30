@@ -7,31 +7,7 @@
            "img": "https://play-lh.googleusercontent.com/8y_aQh4VWKkikDdOmG6rDZR7kKHG_O_ZiwJa2n2Yri1u8ECRh2wrCxmCceTvsW2snyE=s200",
            "country":"Canada"
        },
-       {
-        "key":"454986565655696598956568",
-           "name": "BCS All In One",
-           "totalVideos": "50",
-       "enrollfree": "70",
-          
-           "img": "https://lh3.googleusercontent.com/tl7h17qiO5eeOEFXZwkJtmbXIlP_P5sZejI94AQ7kqyPJ0Z3ffOnAzp2gZg39ekRJsw",
-           "country":"Bangladesh"
-               },
-       {
-        "key":"454986565655696598956567",
-           "name": "IELTS Preparation",
-           "totalVideos": "42",
-       "enrollfree": "60",
-           "invitationCost": "50000",
-           "img": "https://play-lh.googleusercontent.com/Hc0IFRdEJ7rXYaRazUdZ2b70WPUDescxMv8rzDohUQmMuUXOXqHlyE2VeShYtBH61vv0",
-           "country":"USA"       },
-        {
-            "key":"454986565655696598956566",
-           "name": "GRE Preparation",
-           "totalVideos": "48",
-       "enrollfree": "45",
-           "invitationCost": "30000",
-           "img": "https://topofstacksoftware.com/wp-content/uploads/2015/09/GRE.png",
-           "country":"Bangladesh"       },
+       
        {
         "key":"454986565655696598956565",
            "name": "GMATH Preparation",

@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import NotFound from './components/NotFound';
 import Courses from './components/Courses';
-import Contract from './components/Contract';
-import Abouts from './components/Abouts';
+import Contracts from './components/Contracts';
 import Homes from './components/Homes';
+import About from './components/About/About';
+import ShowingDoctorsData from './components/Doctors/ShowingDoctorsData';
 
 function App() {
   return (
@@ -20,24 +20,24 @@ function App() {
 
       </Route>
 
-        <Route path="/contract">
-          <Contract></Contract>
+        <Route path="/contracts">
+         <Contracts></Contracts>
         </Route>
 
-        <Route path="/abouts">
+        <Route path="/about">
 
-            <Abouts></Abouts>
+            <About></About>
         </Route>
 
         <Route path="/courses">
           <Courses></Courses>
 
         </Route>
-        <Route path="*">
-          <NotFound></NotFound>
-
+        <Route path="/showingDoctorsData">
+          <ShowingDoctorsData/>
 
         </Route>
+        
 
       </Switch>
   </Router>
