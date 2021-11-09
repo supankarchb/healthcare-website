@@ -12,7 +12,7 @@ const Products = () => {
         <div>
              <div className="row bg-light">
                <div className="col-md-12">
-           <div className="row p-3 my-3"> <h2><b>Our All Courses</b></h2>
+           <div className="row p-3 my-3"> <h2><b>Our Special Services</b></h2>
             {
                 products.map(product => <Services key={product.key}  product={product}>
                    

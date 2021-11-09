@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ShowData = (props) => {
-    const{name,totalVideos,img} = props.product;
+    const{name,discription,img} = props.product;
     const productStyle={
         padding:'10px',
         borderRadius:'10px',
@@ -26,8 +27,12 @@ const ShowData = (props) => {
             <img src={img} className="card-img-top " style={imgStyle} alt="..."/>
             <div className="card-body">
               <h2 className="card-text"><b>{name}</b></h2>
-              <p className="card-text">{totalVideos}</p>
-              <button className="border border-dark btn btn-primary text-white">Details</button>
+              <p className="card-text">{discription}</p>
+             <Link to={`/details/${discription}${img}`}>
+
+
+             <button className="border border-dark btn btn-primary text-white">Details</button>
+             </Link>
             </div>
           </div>
         </div>

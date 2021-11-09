@@ -25,10 +25,9 @@ const Services = (props) => {
           <div className="card">
             <img src={img} className="card-img-top " style={imgStyle} alt="..."/>
             <div className="card-body">
-              <h6 className="card-text"><b>Course Name :</b> {name}</h6>
-              <p className="card-text"><small><b>Total Videos : {totalVideos}</b></small></p>
-              <p className="card-text"><small><b>Enroll fee : $ {enrollfree}</b></small></p>
-              <button className="border border-dark btn btn-danger text-white">Enroll</button>
+              <h6 className="card-text"><b>Service Name :</b> {name}</h6>
+              <p className="card-text"><small><b>Service fee : $ {enrollfree}</b></small></p>
+              <button className="border rounded-pill border-dark btn btn-primary text-white">more</button>
             </div>
           </div>
         </div>
