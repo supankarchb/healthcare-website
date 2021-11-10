@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import { Form } from "react-bootstrap";
 import { Link, useHistory, useLocation } from 'react-router-dom';
+import Footer from "../Footer/Footer";
+import Home from "../Home";
 import useAuth from "./../Hooks/useAuth";
 
 const Register = () => {
@@ -9,7 +12,7 @@ const Register = () => {
 
     const history= useHistory()
     const location = useLocation()
-    const url= location.state?.from || "/home"
+    const url= location.state?.from || "/homes"
 
 const [name , setName] =useState('')
 const [email,setEmail]=useState('')
@@ -42,14 +45,12 @@ const handleRegistration=(e)=> {
         setUser(res.user)
         history.push(url)
       })
-    //   .catch((error) => {
-    //     const errorCode = error.code;
-    //     const errorMessage = error.message;
-    //     // ..
-    //   })
-      .finally(()=> {
-        setIsLoading(false)
+      .catch((error) => {
+        // const errorCode = error.code;
+        // const errorMessage = error.message;
+        // // ..
       })
+      
 }
 
 
@@ -72,19 +73,21 @@ const handleGoogleLogin = () => {
 
     return (
        <div  className="text-center">
-           <form onSubmit={handleRegistration}>
-               <input type="text"  onBlur={handleGetName}placeholder="name"/>
+           <Home/>
+           <h2>This is register</h2>
+           <Form onSubmit={handleRegistration}>
+               <input type="text" className="m-2" onBlur={handleGetName}placeholder="name"/>
                <br/>
-               <input type="email" onBlur={handleGetEmail} placeholder="email"/>
+               <input type="email"  className="m-2" onBlur={handleGetEmail} placeholder="email"/>
                <br/>
-               <input type="password"  onBlur={handleGetPassword} placeholder="password"/>
+               <input type="password"  className="m-2"  onBlur={handleGetPassword} placeholder="password"/>
                <br/>
                <input type="submit" placeholder="create"/>
                <br/>
-           </form>
-           <h2>This is register</h2>
-           <button onClick={handleGoogleLogin}>Google Sign In</button>
+           </Form>
+           <button className="" onClick={handleGoogleLogin}>Google Sign In</button>
            <p> Already Signed Up ?<Link to="/login">Please Login</Link ></p>
+           <Footer/>
        </div>
     );
 };

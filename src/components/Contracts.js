@@ -14,7 +14,7 @@ const Contracts = () => {
                                <h6>Email, call, or do it the old fashioned way and drop in. We’d love to talk.</h6>
                                 <div class="contact-details">
                                     <i class="fa fa-envelope-o fa-lg"></i>
-                                   info@ABCcoaching.com.au/
+                                   info@TOTAL HEALTH CARE.com.au/
                                     <i href="#" class="fa fa-phone fa-lg"></i>0171 225 335
                                     <span>
                                         <span class="address"><i class="fa fa-map-marker fa-lg"></i>
@@ -26,7 +26,7 @@ const Contracts = () => {
                                     </span>
                                 </div>
                                 <p>
-                                © ABC Coaching Center 2021. All Rights Reserved | ABC Coaching 123456789  | Terms & Conditions of Coaching | Privacy Policy | Support 
+                                © TOTAL HEALTH CARE 2021. All Rights Reserved | TOTAL HEALTH CARE 123456789  | Terms & Conditions of Coaching | Privacy Policy | Support 
                                 </p>
                         </div> 
                     </div>

@@ -37,7 +37,7 @@ const Home = () => {
       }
       
        <Navbar.Text className="text-white">
-          Sign in as : <a className="text-white">{user?.displayName}</a>
+          Sign in as : {user?.displayName}
 
        </Navbar.Text>
         

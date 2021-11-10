@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Services = (props) => {
-    const{name,totalVideos,enrollfree,img} = props.product;
+    const{name,enrollfree,img} = props.product;
     const productStyle={
         padding:'10px',
         borderRadius:'10px',

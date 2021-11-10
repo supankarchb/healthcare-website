@@ -11,6 +11,7 @@ import initializeAuthentication from './components/Firebase/firebase.initialize'
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import AuthProvider from './components/Context/AuthProvider';
 import Details from './components/Details/Details';
+import Register from './components/Register/Register';
 initializeAuthentication();
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
   <Router>
       <Switch>
 
-      <Route path="/homes">
+      <Route exact path="/">
 
         <Homes></Homes>
 
@@ -38,12 +39,17 @@ function App() {
           <Courses></Courses>
 
         </PrivateRoute>
-        <Route path="/showingDoctorsData">
-          <ShowingDoctorsData/>
+        <PrivateRoute path="/showingDoctorsData">
+          <ShowingDoctorsData></ShowingDoctorsData>
 
-        </Route>
+        </PrivateRoute>
+        
         <Route path="/login">
           <Login/>
+
+        </Route>
+        <Route path="/register">
+          <Register/>
 
         </Route>
 
@@ -52,7 +58,8 @@ function App() {
           <Details></Details>
 
       </PrivateRoute>
-        
+     
+      
 
       </Switch>
   </Router>

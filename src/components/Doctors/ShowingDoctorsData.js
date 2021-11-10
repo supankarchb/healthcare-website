@@ -9,8 +9,7 @@ const ShowingDoctorsData = () => {
             <Home/>
 
             <Doctorsdata/>
-           
-
+            
             <Footer/>
             
         </div>
