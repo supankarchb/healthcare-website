@@ -12,6 +12,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import AuthProvider from './components/Context/AuthProvider';
 import Details from './components/Details/Details';
 import Register from './components/Register/Register';
+import NotFound from './components/NotFound/NotFound';
 initializeAuthentication();
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
   <Router>
       <Switch>
 
-      <Route exact path="/">
+      <Route path="/homes">
 
         <Homes></Homes>
 
@@ -58,6 +59,11 @@ function App() {
           <Details></Details>
 
       </PrivateRoute>
+      <Route path="*">
+          <NotFound></NotFound>
+
+
+        </Route>
      
       
 
